@@ -1,1 +1,1 @@
-[join us on Slack](https://hubot-slackin.herokuapp.com/).
+[BSP](https://github.com/10Volo/BSP/).
