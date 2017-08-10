@@ -1,2 +1,2 @@
-# [BSP web-site](https://github.com/10Volo/BSP) 
+# [BSP web-site](https://github.com/10Volo/BSP/index.html) 
 
