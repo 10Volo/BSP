@@ -2,6 +2,10 @@
 //font-family: 'Roboto', sans-serif;
 //font-family: 'Francois One', sans-serif;
 
+//::webkit-input-placeholder {
+//  color: red;
+//}
+
 * {
   box-sizing: border-box;
 }
@@ -37,6 +41,22 @@ span {
 
 ul {
   margin: 0;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 0.8em;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: 0.8em;
+}
+
+:-ms-input-placeholder  {
+  font-size: 0.8em;
+}
+
+input::-moz-placeholder {
+  font-size: 0.8em;
 }
 
 header {
@@ -226,6 +246,7 @@ header {
       box-shadow: 0;
       font-size: 1.2em;
       text-transform: capitalize;
+      cursor: pointer;
 
       &:hover {
         border: 3px dashed #0d47a1;
@@ -305,8 +326,9 @@ header {
 
   .feedback-info-description {
     margin: 30px 0 10px 0;
+
     p {
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
   }
 
@@ -346,6 +368,7 @@ header {
       text-transform: capitalize;
       border: 1px solid #877949;
       border-radius: 25px;
+      cursor: pointer;
 
       &:hover {
         background-color: #c7b062;

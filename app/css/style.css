@@ -2468,6 +2468,18 @@ span {
 ul {
   margin: 0; }
 
+input::-webkit-input-placeholder {
+  font-size: 0.8em; }
+
+textarea::-webkit-input-placeholder {
+  font-size: 0.8em; }
+
+:-ms-input-placeholder {
+  font-size: 0.8em; }
+
+input::-moz-placeholder {
+  font-size: 0.8em; }
+
 header {
   padding: 5px 0; }
 
@@ -2565,7 +2577,8 @@ header {
       border-radius: 10px;
       box-shadow: 0;
       font-size: 1.2em;
-      text-transform: capitalize; }
+      text-transform: capitalize;
+      cursor: pointer; }
       .how-help .how-help-call .btn-call:hover {
         border: 3px dashed #0d47a1; }
 
@@ -2608,7 +2621,7 @@ header {
   .feedback .feedback-info-description {
     margin: 30px 0 10px 0; }
     .feedback .feedback-info-description p {
-      font-size: 1.2em; }
+      font-size: 1.1em; }
   .feedback form {
     display: flex;
     flex-direction: column;
@@ -2635,7 +2648,8 @@ header {
       color: #ffffff;
       text-transform: capitalize;
       border: 1px solid #877949;
-      border-radius: 25px; }
+      border-radius: 25px;
+      cursor: pointer; }
       .feedback .form-send .btn-senden:hover {
         background-color: #c7b062; }
     .feedback .form-send .btn-senden-plane {
