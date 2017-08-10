@@ -1,1 +1,1 @@
-[BSP](https://github.com/10Volo/BSP/).
+[BSP](https://github.com/10Volo/BSP/index.html).
