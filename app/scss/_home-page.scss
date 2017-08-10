@@ -117,8 +117,6 @@ header {
       list-style: none;
       font-family: 'Roboto', sans-serif;
       font-stretch: ultra-expanded;
-      font-size: 16px;
-      text-transform: capitalize;
 
       li {
 
@@ -129,9 +127,11 @@ header {
         a {
           color: #000000;
           text-decoration: none;
-          font-size: 1em;
+          font-size: 1.2em;
           font-weight: 600;
+          text-transform: capitalize;
           padding: 10px 20px;
+
 
           &:hover {
             color: #ff9d0a;
@@ -162,6 +162,7 @@ header {
             color: #ffffff;
             text-decoration: none;
             font-size: 1em;
+            font-weight: 100;
             padding: 10px 20px;
 
             &:hover {
@@ -243,7 +244,7 @@ header {
     justify-content: space-between;
     width: 50px;
     height: 50px;
-    background-color: #142745;
+    background-color: #c9c9c9;
     border-radius: 6px;
     padding: 10px;
 
@@ -254,7 +255,7 @@ header {
       span {
         width: 100%;
         height: 3px;
-        background-color: #ffffff;
+        background-color: #142745;
       }
     }
   }
