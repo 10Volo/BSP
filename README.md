@@ -1,2 +1,3 @@
-# BSP 
-+[](https://github.com/10Volo/BSP/index.html).
+# BSP
+- BSP
++[BSP](https://10volo.github.io/BSP/)
