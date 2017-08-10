@@ -96,7 +96,7 @@ header {
       width: 100%;
       order: 1;
       justify-content: center;
-      padding: 10px 0 5px 0;
+      padding: 20px 0 5px 0;
     }
 
     @media (max-width: 767px) {
@@ -160,7 +160,7 @@ header {
           a {
             color: #000000;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: 600;
             padding: 10px 20px;
 
@@ -176,6 +176,7 @@ header {
 
     @media (max-width: 767px) {
       padding: 0 60px 0 10px;
+
     }
 
     .contact-phone {
@@ -284,6 +285,10 @@ header {
 
     @media (max-width: 767px) {
     padding: 30px 0 10px 0;
+
+      @media (max-width: 440px) {
+        padding: 0;
+      }
     }
   }
 
@@ -293,6 +298,10 @@ header {
 
     @media (max-width: 900px) {
       font-size:1.5em;
+
+      @media (max-width: 440px) {
+        font-size: 1em;
+      }
     }
   }
 }
@@ -466,6 +475,7 @@ header {
 
     .input-form {
       background: #eeeeee;
+      color: #ffffff;
       height: 50px;
       margin: 10px 0;
       padding: 0 0 0 10px;

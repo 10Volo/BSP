@@ -2503,7 +2503,7 @@ header {
         width: 100%;
         order: 1;
         justify-content: center;
-        padding: 10px 0 5px 0; } }
+        padding: 20px 0 5px 0; } }
     @media (max-width: 767px) {
       .header-list-info .header-nav-bar {
         position: fixed;
@@ -2553,7 +2553,7 @@ header {
           .header-list-info .header-nav-bar .header-list li a {
             color: #000000;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: 600;
             padding: 10px 20px; }
             .header-list-info .header-nav-bar .header-list li a:hover {
@@ -2626,12 +2626,18 @@ header {
   @media (max-width: 900px) and (max-width: 767px) {
     .description {
       padding: 30px 0 10px 0; } }
+  @media (max-width: 900px) and (max-width: 767px) and (max-width: 440px) {
+    .description {
+      padding: 0; } }
   .description p {
     color: #ffffff;
     font-size: 2em; }
     @media (max-width: 900px) {
       .description p {
         font-size: 1.5em; } }
+  @media (max-width: 900px) and (max-width: 440px) {
+    .description p {
+      font-size: 1em; } }
 
 .how-help {
   padding: 30px 0; }
@@ -2725,6 +2731,7 @@ header {
     width: 60%; }
     .feedback form .input-form {
       background: #eeeeee;
+      color: #ffffff;
       height: 50px;
       margin: 10px 0;
       padding: 0 0 0 10px;
