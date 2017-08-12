@@ -262,19 +262,19 @@
                 <div class="feedback-info-description">
                     <p>Sie können uns entweder anrufen oder das untenstehende Kontaktformular benutzen.</p>
                 </div>
-                <form action="">
-                    <input type="text" placeholder="Ihr Name" class="input-form input-name">
-                    <input type="email" placeholder="E-mail" class="input-form input-mail">
-                    <textarea name="" placeholder="Schreiben Sie Ihre Frage Hier" class="input-form feedback-textarea"></textarea>
+                <form action="index.php" onsubmit="return validation();" method="post" name="enq">
+                    <input type="text" placeholder="Ihr Name" class="input-form input-name" name="name" id="name">
+                    <input type="email" placeholder="E-mail" class="input-form input-mail"  name="email" id="email">
+                    <textarea name="" placeholder="Schreiben Sie Ihre Frage Hier" class="input-form feedback-textarea"  name="message" id="message"></textarea>
 
                     </texteria>
-                </form>
-                <div class="form-send">
-                    <button type="submit" class="btn-senden">senden</button>
-                    <div class="btn-senden-plane">
-                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <div class="form-send">
+                        <button type="submit" class="btn-senden">senden</button>
+                        <div class="btn-senden-plane">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
